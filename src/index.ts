@@ -16,6 +16,7 @@ export type FeedVideo = {
   duration: number | null;
   subtitles_url: string | null;
   translated_caption: string | null;
+  audio_url: string | null;
   media_type: 'video' | 'image';
   created_at: string;
   creator_username: string;
